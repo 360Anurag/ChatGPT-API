@@ -8,7 +8,7 @@ const OpenAI = require("openai");
 const messages = [];
 
 const openai = new OpenAI({
-  apiKey: process.env.API_KEY, // defaults to process.env["OPENAI_API_KEY"]
+  apiKey: process.env.OPENAI_API_KEY, // defaults to process.env["OPENAI_API_KEY"]
 });
 
 async function main(input) {
